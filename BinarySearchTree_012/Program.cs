@@ -19,6 +19,16 @@ namespace BinarySearchTree_012
             leftchild = l;
             rightchild = r;
         }
+        /* A node class concists of three thins, he information,
+          references to the right vhild, nad references to the left child */
+        class Program
+        {
+            public Node ROOT;
+            public Program()
+            {
+                ROOT = null; /* Initializing root to null*/
+            }
+        }
         static void Main(string[] args)
         {
         }
